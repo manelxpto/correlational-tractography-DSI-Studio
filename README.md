@@ -13,9 +13,9 @@ Reference: documentation from https://dsi-studio.labsolver.org/
 
 **--variable_list=1,2,4,5,%%G:** variables 1,2,4,5 are adjusted with multiple linear regression
 
-**--t_threshold=3**: select t-score threshold (2,5 is default)
+**--t_threshold=3**:  t-score threshold reflects the statistical strength between the associations (2,5 is default)
 
-**--length_threshold=20:** minimum length of the tracks in voxel distance
+**--length_threshold=20:** minimum length of the tracks, in voxel distance
 
 **–-exclude_cb=1:** exclude cerebellum (true)
 
