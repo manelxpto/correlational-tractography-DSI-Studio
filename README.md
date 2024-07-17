@@ -2,7 +2,6 @@
 - Shell script to perform correlational tractography (connectometry analysis) in DSI Studio
 
 - DSI Studio allows manual performance of correlational tractography, but for large numbers of study variables, a shell script is handy.
-Reference: documentation from https://dsi-studio.labsolver.org/
 
 
 **--action=cnt:** to perform connectometry 
@@ -24,3 +23,5 @@ Reference: documentation from https://dsi-studio.labsolver.org/
 **--voi=%%G:** study variable of interest (in this case columns 6 to 19)
  
 **> log%%G.txt:** creates log file for each study variable
+
+Reference: DSI Studio documentation and Forum https://dsi-studio.labsolver.org/
