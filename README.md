@@ -3,14 +3,14 @@
 
 - DSI Studio allows manual performance of correlational tractography, but for large numbers of study variables, a bash/shell script is handy.
 
-
-**--action=cnt:** to perform connectometry 
+Understanding the bash code:
+**--action=cnt:** performs group connectometry 
 
 **--source=PDAM0.md.db.fib.gz:** select the name file of the connectometry database
 
 **--demo=PDAM_DemografGeral.csv:** select the tabular data (study variables)
 
-**--variable_list=1,2,4,5,%%G:** variables 1,2,4,5 are adjusted with multiple linear regression
+**--variable_list=1,2,4,5,%%G:** variables 1,2,4 and 5 (age, gender, etc) are adjusted with multiple linear regression
 
 **--t_threshold=3**:  t-score threshold reflects the statistical strength between the associations (2,5 is default)
 
@@ -20,7 +20,7 @@
 
 **--permutation=4000:** set number of random permutations to study variable (to calculate FDR)
 
-**--voi=%%G:** study variable of interest (in this case columns 6 to 19)
+**--voi=%%G:** variable of interest (%%G) (in this case columns 6 to 19, include neurpsychological test scores, dCA, VRCO2 and NVC)
  
 **> log%%G.txt:** creates log file for each study variable
 
