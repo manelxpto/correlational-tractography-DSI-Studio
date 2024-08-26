@@ -1,7 +1,9 @@
 # correlational-tractography-DSI-Studio
-- Bash script to perform correlational tractography (connectometry analysis) in DSI Studio
+/h2 Bash script to perform correlational tractography (connectometry analysis) in DSI Studio
 
 - DSI Studio allows manual performance of correlational tractography, but for large numbers of study variables, a bash/shell script is handy.
+
+
 
 Understanding the bash code:
 **--action=cnt:** performs group connectometry 
